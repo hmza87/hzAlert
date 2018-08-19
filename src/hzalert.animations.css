@@ -1,0 +1,85 @@
+@keyframes intro {
+    0% {
+
+        transform: scale(2) rotate(0deg);
+    }
+
+    50% {
+
+    }
+
+    80% {
+        transform: scale(.6) rotate(20deg);
+
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+@keyframes intr {
+    0% {
+        border-color: #fff;
+    }
+
+    40% {
+        border-color: #fff;
+    }
+
+    100% {
+        border-color: #2ad6a4;
+    }
+}
+
+@keyframes intr2 {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+@keyframes dialog_intro1 {
+    0% {
+        transform: scale(.6, .3);
+        opacity : 0;
+    }
+
+    40% {
+        transform: scale(2, 1.4);
+    }
+
+    80% {
+        transform: scale(.9, 1.2);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity : 1;
+    }
+}
+@keyframes dialog_intro2 {
+    0% {
+        transform: scale(.2) rotate(-20deg);
+        opacity : 0;
+    }
+
+    60% {
+        transform: scale(1.4) rotate(10deg);
+        opacity : 1;
+    }
+
+    100% {
+        transform: scale(1) rotate(0);
+        opacity : 1;
+    }
+}
