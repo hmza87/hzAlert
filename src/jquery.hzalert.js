@@ -84,7 +84,6 @@ var balert = function(parametre_1, parametre_2, parametre_3){
                 .appendTo(dialog.find('.hzalert-buttons'));
         }else if(options.type === 'confirm'){
             button.clone()
-                .addClass('danger')
                 .html('No')
                 .data('value', false)
                 .on('click', function(e){

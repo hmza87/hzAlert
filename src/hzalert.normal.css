@@ -106,24 +106,64 @@
     color: #676767;
     box-shadow: 0 10px 28px -18px #909090;
     border-radius: 2px;
+    margin: 0 6px;
+
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
 }
 
 .hzalert-buttons button:hover {
+    background: #dedede;
 }
 
 .hzalert-buttons button:focus {
 }
 
 .hzalert-buttons button.success {
-    background: #70cdea linear-gradient(9deg, #70cdea, #62bfdc);
+    background: #63c0dd;
+    /* background: #70cdea linear-gradient(9deg, #70cdea, #62bfdc); */
     color: #fff;
+    border-color: #4fa5bf;
     font-weight: 600;
 }
 
 .hzalert-buttons button.success:hover {
+    background: #3d95b1;
+    /* background: #54acc7 linear-gradient(9deg, #4a9cb5, #357c92); */
 }
 
 .hzalert-buttons button.success:focus {
+}
+
+.hzalert-buttons button.warning {
+    background: #ff8c53;
+    color: #fff;
+    border-color: #d46c39;
+    font-weight: 600;
+}
+
+.hzalert-buttons button.warning:hover {
+    background: #d46c39;
+}
+
+.hzalert-buttons button.warning:focus {
+}
+
+.hzalert-buttons button.danger {
+    background: #ff8c8c;
+    color: #fff;
+    border-color: #e06f6f;
+    font-weight: 600;
+}
+
+.hzalert-buttons button.danger:hover {
+    background: #e06f6f;
+}
+
+.hzalert-buttons button.danger:focus {
 }
 
 .hza-icon, .hza-icon *, .hza-icon *::after, .hza-icon *::before {
@@ -173,7 +213,7 @@
     height: 120%;
     background: #56ecc1;
     border-radius: 100%;
-    animation: intr2 1 .6s .2s ;
+    animation: intr2 1 .6s .2s;
     transform: scale(0);
     opacity: 0;
 }
